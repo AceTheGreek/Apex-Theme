@@ -17,8 +17,8 @@ button {
   --background-solid: #161921;
   --background-solid-dark: #101218;
   --background-solid-darker: #0c0e12;
-  --accent: 37, 172, 232;
-  --accent-alt: 29, 101, 134;
+  --accent: 255, 255, 255; /* Changed to white */
+  --accent-alt: 200, 200, 200; /* Changed to light grey */
   --md-black: 0, 0, 0;
   --dm-white: 255, 255, 255;
   --accentcolor: var(--accent);
@@ -72,7 +72,7 @@ button {
 ::-webkit-scrollbar-thumb {
   border-radius: 8px !important;
   border: 3px solid transparent !important;
-  background-color: rgba(var(--accent-alt), 1) !important;
+  background-color: rgba(var(--accent-alt), 1) !important; /* Changed to white */
 }
 
 ::-webkit-scrollbar-track {
@@ -158,7 +158,7 @@ ul[data-list-id='guildsnav'] .pill- span {
 }
 
 [data-list-id='guildsnav'] .pill- span[style^="opacity: 1; height: 40"] {
-  --header-primary: rgba(var(--accent), 1);
+  --header-primary: rgba(var(--accent), 1); /* Changed to white */
 }
 
 .expandedFolderBackground- {
@@ -247,7 +247,7 @@ div[data-list-item-id="guildsnav___home"] {
 }
 
 #channels .unread- {
-  --interactive-normal: rgba(var(--accent), 1);
+  --interactive-normal: rgba(var(--accent), 1); /* Changed to white */
 }
 
 /* Message Editor */
